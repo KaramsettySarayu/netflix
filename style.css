@@ -29,9 +29,11 @@ body {
 #buttons {
     display: flex;
     justify-content: space-between;
-    padding: 1rem 1rem;
+    padding: 16px 16px;
 }
-
+#buttons button,select{
+    width: 110px;
+}
 #dropdown {
     background-color: rgba(0, 0, 0, 0.519);
     border: 1px solid white;
@@ -121,8 +123,8 @@ h1{
         width:500px;
     }
 }
-@media(max-width:625px){
-   #buttons{
+@media(max-width:627px){
+   #buttons select{
    display:none;
    }
    #subscribe{
